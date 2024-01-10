@@ -1,0 +1,191 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DoAnvb
+</name>
+</assembly>
+<members>
+<member name="T:DoAnvb.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DoAnvb.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DoAnvb.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.DangNhapDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KetQuaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KhoaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.LopHocDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.MonHocDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.ThongTinSinhVienDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.DangNhapRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KetQuaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KhoaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.LopHocRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.MonHocRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.ThongTinSinhVienRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.DangNhapRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KetQuaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.KhoaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.LopHocRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.MonHocRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSet.ThongTinSinhVienRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.DangNhapTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.KetQuaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.KhoaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.LopHocTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.MonHocTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.ThongTinSinhVienTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DoAnvb.Do_an_QLSVDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DoAnvb.Do_an_QLSVDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DoAnvb.Do_an_QLSVDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.UpdateAll(DoAnvb.Do_an_QLSVDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DoAnvb.Do_an_QLSVDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
